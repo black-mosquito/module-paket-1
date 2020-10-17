@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <paket1>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Blackmosquito\Paket1\Model\Carrier\Paket1</model>
+                <name>BM Paket Europa</name>
+                <price>10.50</price>
+                <title>BM-Paket-Europa</title>
+                <type>I</type>
+                <specificerrmsg>...</specificerrmsg>
+            </paket1>
+        </carriers>
+    </default>
+</config>
